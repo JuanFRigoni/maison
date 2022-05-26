@@ -2,16 +2,6 @@
 * {
   font-family: 'Nunito', sans-serif; }
 
-h1 {
-  font-weight: 500; }
-
-h3 {
-  font-weight: 800; }
-
-p {
-  font-weight: 300;
-  font-size: medium; }
-
 /* COLORES*/
 .col-12 {
   background-color: #F7E9D7; }
@@ -63,16 +53,21 @@ body {
   background-color: #F7E9D7; }
 
 /* INDEX*/
-.index__titulos {
-  background-color: #fff;
+.maincontainer{
+  display: flex;
+  justify-content: space-between;
+  margin: 4%;
+}
+.index__titulo {
+  background-color: #2a323b3a;
   color: #303841;
   display: flex;
-  width: 70%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   margin-bottom: 5%;
-  border: 2px solid #fff;
-  border-radius: 5%; }
+  border: 2px solid black;
+  border-radius: 4%; }
 
 .index__row {
   display: flex;
@@ -80,8 +75,7 @@ body {
   align-items: center; }
 
 /*CAROUSEL*/
-.carrousell {
-  align-items: center;
+.carrousell { 
   width: 70%;
   border-radius: 1%;
   border: 3px solid #2a323b3a; }
@@ -107,24 +101,24 @@ body {
 
 /*PRODUCTOS*/
 .card {
+  background-color: #171b1f7c;
   width: 20em;
   border-radius: 4%;
-  border: 8px solid #2a323b3a;
-  margin: 10%; }
+  border: 8px solid #0000007a;
+  margin: 2%; }
 
 .card:hover {
   transform: scale(1.2);
   transition-duration: 1.2s; }
 
 .card__tittle {
-  background-color: #fff;
-  color: #2a323b3a;
+  background-color: #2a323b3a;
+  color: #303841;
   height: 3em;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 4%;
-  margin-bottom: 0%;
+  margin-top: 5%;
   border-radius: 4%; }
 
 .card-text {
@@ -135,7 +129,7 @@ body {
 
 .carrito {
   background-color: #303841;
-  color: #F7E9D7;
+  color: #303841;
   display: flex;
   align-items: center; }
 
@@ -155,7 +149,7 @@ footer {
   border-radius: 15%; }
 
 /* CONTACTO*/
-h2 {
+#h2contacto {
   font-size: 3em;
   display: flex;
   justify-content: center;
@@ -203,3 +197,14 @@ article {
   height: 4.2em;
   visibility: hidden;
   transition-duration: 100s; }
+.subtitulos{
+  background-color: #2a323b3a;
+  color: #303841;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  border: 2px solid black;
+  border-radius: 4%; 
+  font-size: 1.7em;}
