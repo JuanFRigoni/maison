@@ -1,0 +1,20 @@
+/*MEDIA Q */
+
+@media (min-width: 992px) {
+    .logo{
+      width: 12%;
+    }
+    .card{
+      height: 27em;
+      display: flex;
+    }
+    .carrito{
+      height: 80%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+   }
+   
+   
+   
