@@ -1,33 +1,8 @@
-/*--------------------- IMPORTS---------------------*/
-
-/*---------------------Variables,Colores,Fuentes,MEDIAQ,Logo---------------------*/
-
-@import "./variables";
-
-@import "./colores";
-
-@import"./fonts";
-
-@import "./mediaq";
-
-@import"./logo";
-
-/*---------------------Header---------------------*/
-
-@import "./head";
-
-/*---------------------Index---------------------*/
-
-@import "./carousell";
-
-@import "./inicio";
-
-/*-----------DecoHome,Cerámica y Sale-------------*/
-@import"./productos";
-
-/*-------------------Contactos-------------------*/
-@import"./contactos";
-
-/*---------------------Footer---------------------*/
-@import"./footer";
-
+@import "base";
+@import "nav";
+@import"index";
+@import"carrousell";
+@import"footer";
+@import"productos";
+@import"contacto";
+@import"mediaq";

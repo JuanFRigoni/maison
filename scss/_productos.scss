@@ -1,44 +1,48 @@
-/*PRODUCTOS*/
+ /*PRODUCTOS*/
+    
+ .subtitulos {
+    background-color: $colorCf2;
+    color: $colorP;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    border-radius: 4%;
+    font-size: 1.7em; }
 
-.card{
-    
-    width: 20em;
+  .card {
+    background-color: $colorCf1;
+    width:90%;
+    height: 90%;
     border-radius: 4%;
-    border: 8px solid $fondofume;
-    margin: 10%;
-   }
-   .card:hover{
-    transform: scale(1.2);
-    transition-duration: 1.2s;
-   }
-   .card__tittle{
-    background-color:$blanco;
-    color:$fondofume;
-    height: 3em;
+    border: 13px solid $bordercardf;
+    margin: 3%; 
+        &:hover {
+        transform: scale(1.03);
+        transition-duration: inherit; }
+    }
+
+  .card__tittle {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 4%;
-    margin-bottom: 0%;
-    border-radius: 4%;
-    background-color: $colorpaleta;
-   }
-   
-   .card-text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: $colorCf1;
     height: 100%;
-    background-color: $colorpaleta;
-   
-   }
-   
-   
-   .carrito{
-    background-color:$colorazul;
-    color:$colorpaleta;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: $colorP;
+    margin-top:7%;
+  border-radius: 2%; }
+  
+  .card-text {
     display: flex;
     align-items: center;
-    
-   }
-   
+    justify-content: center;
+    height: 100%; }
+  
+  .carrito {
+    background-color: $colorP;
+    color: $colorP;
+    display: flex;
+    align-items: center; }

@@ -1,0 +1,41 @@
+/**NAV BAR*/
+
+    .navbar {
+    background-color: $colorP;
+    position: relative; }
+  
+  .navbar-toggler {
+    background-color: $colorS; }
+  
+  .navbar-brand {
+    width: 60%; }
+  
+  .offcanvas-body {
+    color: $colorS;
+    background-color: $colorS; }
+  
+  .offcanvas-header {
+    color: $colorS;
+    background-color: $colorP; }
+  
+  .dropdown-menu {
+    background-color: $colorCf2;
+    border: 1px solid black; }
+  
+  .nav-item {
+    font-weight: 1700;
+    background-color: $colorCf2;
+    border: 1px solid black;
+    border-radius: 6%;
+    padding: 2.5%;
+    margin: 1.3%; 
+    
+        &:hover {
+        transform: scale(1.001); }
+     }
+  
+  .dropdown-item:hover {
+    background-color: $colorCf2;
+    border: 2px solid black;
+    transform: scale(1.02); }
+  

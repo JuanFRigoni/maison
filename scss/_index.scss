@@ -1,0 +1,25 @@
+ 
+ /* INDEX*/
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 9%; }
+  
+  .index__titulo {
+    background-color: $ColorCf2;
+    color: $colorP;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 4%;
+    border-top: 0.5% !important; }
+  
+  .index__row {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
