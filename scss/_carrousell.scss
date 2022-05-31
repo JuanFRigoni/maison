@@ -4,7 +4,9 @@
     width: 30em;
     height: 30em;
     border-radius: 1%;
-    border: 14px solid $ColorCf2; }
+    border: 14px solid $ColorCf2; 
+    display: block;
+    margin: 0%;}
   
   .carousel-inner:hover {
     transform: scale(1.02);
