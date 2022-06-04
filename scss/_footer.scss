@@ -1,21 +1,19 @@
- /*FOOTER*/
-
- footer {
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-wrap: wrap;
-    background: $colorP;
-    min-height: 100px;
-    margin-top: 3%; 
-         p {
-        color: #F7E9D7;
-        text-align: center; }
+ /*------------------------------------- FOOTER -------------------------------------*/
+  
+footer {
+  background: $azul ;
+  min-height: 100px;
+  margin-top: 3%; 
+     p {
+      color: $pastel;
+      text-align: center; 
     }
+}
   
   #iconos i {
-    background-color:$colorS;
+    background-color: $pastel;
     font-size: 1.5em;
     padding: 0 8px;
-    border-radius: 15%; }
+    border-radius: 15%; 
+  }
+  

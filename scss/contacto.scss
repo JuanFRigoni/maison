@@ -1,0 +1,38 @@
+  /*------------------------------------- CONTACTO -------------------------------------*/
+  
+  
+  #h2contacto {
+    @extend .card__text;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #2a323b3a;
+    color: $pastel ;
+    height: 2.0em;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 1%;
+  }
+  
+  
+  .contacto__text {
+    font-size: 1.2em;
+    border: 3px solid $azul ;
+    background-color: $azul ;
+    color: $pastel;
+    padding: 2%; 
+  }
+  
+  .contacto__form {
+    @extend .contacto__text;
+    margin-top: 5%;
+    width: 90%;
+    border-radius: 4%;
+  }
+  
+  a i {
+    color: $azul
+  }
+  
+  .checkbox{
+    margin-top: 0.4%;
+  }

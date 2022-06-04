@@ -1,0 +1,29 @@
+/*------------------------------------- ID -------------------------------------*/
+  
+#exclusividad {
+  padding: 12%;
+  @extend .card__text;
+  background-color: $azul ;
+  color: $pastel;
+  height: 4em; 
+}
+  
+#maison {
+  @extend .card__text;
+  padding: 10%;
+  font-size: 4em;
+  background-color: $blanco;
+  color: $azul ;
+  border: 4px solid $azul ;
+  height: 4.2em;
+  visibility: hidden;
+  transition-duration: 100s; 
+}
+  
+#prox{
+  @extend .card__text;
+  padding: 1.5%;
+  margin: 2%;
+}
+  
+  

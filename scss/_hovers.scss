@@ -1,0 +1,54 @@
+/*---------------- HOVERS -------------------- */
+  
+@media (hover:hover){
+  .nav-item:hover {
+    transform: scale(1.001); 
+  }
+  
+  .dropdown-item:hover {
+    background-color: $azul ;
+    border: 3px solid black;
+    transform: scale(1.02);
+  }
+
+  .col-lg-6:hover {
+    transform: scale(1.02);
+    transition-duration: inherit;
+  }
+
+  .contacto__lema:hover #maison {
+    visibility: visible; 
+  }
+      
+  .form-group:hover {
+    transform: scale(1.05);
+    transition: all; 
+  }
+    
+  .imgIndex2:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg); 
+    -moz-transform: rotate(360deg);
+    transition-duration: 4s;
+  }
+  
+  .index__card:hover{
+    @extend .col-lg-6:hover;
+  }
+  
+  .card:hover{
+   @extend .col-lg-6:hover;
+  }
+  
+  .navbar-toggler:hover{ 
+    border: 3px solid black;
+    transform: scale(1.2);
+  }
+  
+  .logo:hover{
+   @extend .col-lg-6:hover;
+  }
+  
+}
+     

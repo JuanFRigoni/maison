@@ -15,57 +15,79 @@
 <body>
   <nav class="navbar navbar-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand"> <img class="logo" src="./media/logomaison.png" alt="logo" srcset=""></a>
-       <button class="navbar-toggler d-flex justify-content-between" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span></button>
-           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-             <div class="offcanvas-header">
-             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MaisonDeco</h5>
-             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-           </div>
-           <div class="offcanvas-body">
-             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-               <li class="nav-item">
-                 <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="./pages/carrito.html">Carrito</a>
-               </li>
-       <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-        <li><a class="dropdown-item" href="/pages/sale.html">Sale!</a></li>
-        <li><a class="dropdown-item" href="./pages/ceramica.html">Cerámica</a></li>
-        <li><a class="dropdown-item" href="./pages/decohome.html">DecoHome</a></li>
-      </ul>
-               <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html ">Contactanos</a>
+      <a href="./index.html" class="navbar-brand"> <img class="logo" src="./media/logomaison.png" alt="logo" srcset=""><a href="./index.html"></a>
+      <button class="navbar-toggler d-flex justify-content-between" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MaisonDeco</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
               </li>
-           </div>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/carrito.html">Carrito</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="/pages/sale.html">Sale!</a></li>
+                  <li><a class="dropdown-item" href="./pages/ceramica.html">Cerámica</a></li>
+                  <li><a class="dropdown-item" href="./pages/decohome.html">DecoHome</a></li>
+                </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html ">Contactanos</a>
+                  </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </nav>
+
+<section>
+  <h2 class="index__titulo display-4"> Conocé nuestros productos</h2>
+</section>
+
+<main class="main__container">
+
+  <section class="row">
+    <aside class="col-lg-6">
+      <div class="index__card">
+        <a href="./pages/sale.html"><img src="media/index1500600.jpg" alt="link a sale "class="imgIndex2"/>
+        <h3 class="index__txt"> Sale!</h3></a>
       </div>
-     </nav>
-     <section>
-      <h2 class="index__titulo display-4"> Encontrá detalles llenos de amor</h2>
-    </section>
-     <main class="indexSecciones container">
-      <section class="row">
-        <aside class="col-lg-6">
-          <img src="/media/index2.jpg" class="imgIndex mb-md-4">
-          <img src="/media/hornillo-ceramica2.png" alt="Coconut with Strawberries" class="imgIndex"/>
-        </aside>
-        <section class="col-lg-6">
-          <img src="media/index1500600.jpg" alt="cuenco con relieve ceramica"class="imgIndex2"/>
-        </aside>
-      </section>
-    </main>
-    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
-    <p class="fs-5 px-3  pt-3"> &copy; Todos Los Derechos Reservados 2022</p>
+    </aside>
+    <aside class="col-lg-6">
+      <div class="index__card">
+        <a href="./pages/decohome.html"><img src="/media/index2.jpg" class="index__img mb-md-4"alt=" link a decohome">
+        <h3 class="index__txt">DecoHome</h3></a>
+      </div>
+    </aside>
+    <aside class="col-lg-6">  
+      <div class="index__card">
+        <a href="./pages/ceramica.html"><img src="/media/hornillo-ceramica2.png" class="index__img" alt=" link a Ceramica" >
+        <h3 class="index__txt">Cerámica</h3></a>
+      </div>
+    </aside>
+  </section>
+</main>
+
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+  <p class="fs-5 px-3  pt-3"> &copy; Todos Los Derechos Reservados 2022</p>
     <div id="iconos">
       <a href="https://www.facebook.com/profile.php?id=100078881872802/"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/maisondeco.bb/"><i class="bi bi-instagram"></i></a>  
       <a href="mailto:maisondeco@gmail.com"><i class="bi bi-envelope"></i></a>
-  </div>
-    </footer>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+    </div>
+</footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 </body>
 </html>

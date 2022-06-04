@@ -1,13 +1,33 @@
-  /*MEDIA Q */
+/*------------------------------------- MEDIA Q -------------------------------------*/
+  
+@media (min-width: 992px) {
+  .logo {
+    width: 12%;
+  }
 
-  @media (min-width: 992px) {
-    .logo {
-      width: 12%; }
-    .card {
-      height: 27em; }
-    .carrito {
-      height: 80%;
-      width: 100%;
-      display: flex;
-      justify-content: center; } 
+  .card {
+    height: 35em;
+  }
+  
+  .carrito {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
+  
+@media (min-width:574px){
+  .imgIndex2{
+    height: 490px;
+    margin: 5%;
+  }
+  .card__tittle{
+    margin-bottom: 2%;
+  }
+  
+  .index__card{
+    height: 490px;
+    margin: 5%;
+  }
+ }

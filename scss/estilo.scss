@@ -1,8 +1,14 @@
-@import "base";
-@import "nav";
-@import"index";
-@import"carrousell";
-@import"footer";
-@import"productos";
+/*------------------------------------- IMPORTS -------------------------------------*/
+
+@import "./fontsandcolors";
+@import "./variables";
+@import"./hovers";
+@import"./mediaq";
+@import "./head";
+@import "./index";
+@import"./productos";
+@import"./footer";
 @import"contacto";
-@import"mediaq";
+@import"id.scss";
+
+/*------------------------------------- CONTACTO -------------------------------------*/
