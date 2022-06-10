@@ -1,27 +1,48 @@
-/*------------------------------------- FUENTES -------------------------------------*/
+/*------------------------------------- IMPORTS -------------------------------------*/
+/*------------------------------------- FUENTES ---------------------------------------*/
 * {
   font-family: 'Nunito', sans-serif; }
 
 /*------------------------------------- COLORES -------------------------------------*/
-.col-12 {
-  background: linear-gradient(to bottom right, #DDDDDD, #F0ECE3); }
-
-section {
-  background: linear-gradient(to bottom right, #DDDDDD, #f0ece3); }
-
-body {
-  background: linear-gradient(to bottom right, #DDDDDD, #f0ece3); }
-
-/*------------------------------------- LOGO -------------------------------------*/
-.logo {
-  width: 20%; }
+/*------------------------------ COLORES ------------------------------*/
+/*---------------- HOVERS -------------------- */
+@media (hover: hover) {
+  .nav-item:hover {
+    transform: scale(1.001); }
+  .dropdown-item:hover {
+    background-color: #596E79;
+    border: 3px solid black;
+    transform: scale(1.02); }
+  .col-lg-6:hover, .index__card:hover, .card:hover, .logo:hover {
+    transform: scale(1.02);
+    transition-duration: inherit; }
+  .contacto__lema:hover #maison {
+    visibility: visible; }
+  .form-group:hover {
+    transform: scale(1.05);
+    transition: all; }
+  .imgIndex2:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transition-duration: 4s; }
+  .navbar-toggler:hover {
+    border: 3px solid black;
+    transform: scale(1.2); }
+  .carrito-text:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transition-duration: 6s; } }
 
 /*------------------------------------- MEDIA Q -------------------------------------*/
 @media (min-width: 992px) {
   .logo {
     width: 12%; }
   .card {
-    height: 35em; }
+    height: 40em; }
   .carrito {
     height: 80%;
     width: 100%;
@@ -38,55 +59,23 @@ body {
     height: 490px;
     margin: 5%; } }
 
-/*---------------- HOVERS -------------------- */
-@media (hover: hover) {
-  .nav-item:hover {
-    transform: scale(1.001); }
-  .dropdown-item:hover {
-    background-color: #596E79;
-    border: 3px solid black;
-    transform: scale(1.02); }
-  .col-lg-6:hover {
-    transform: scale(1.01);
-    transition-duration: inherit; }
-  .contacto__lema:hover #maison {
-    visibility: visible; }
-  .form-group:hover {
-    transform: scale(1.05);
-    transition: all; }
-  .imgIndex2:hover {
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    transition-duration: 4s; }
-  .index__card:hover {
-    transform: scale(1.02); }
-  .card:hover {
-    transform: scale(1.02); }
-  .navbar-toggler:hover {
-    border: 3px solid black;
-    transform: scale(1.2); }
-  .logo:hover {
-    transform: scale(1.02); } }
-
 /*-------------------------------------HEAD-------------------------------------*/
 .navbar {
   background-color: #596E79;
   position: relative; }
 
 .navbar-toggler {
-  background-color: #ffff; }
+  background-color: #fff; }
 
 .navbar-brand {
   width: 60%; }
 
 .offcanvas-body {
-  color: #F7E9D7;
+  color: #F0ECE3;
   background-color: #F0ECE3; }
 
 .offcanvas-header {
-  color: #F7E9D7;
+  color: #F0ECE3;
   background-color: #596E79; }
 
 .dropdown-menu {
@@ -104,38 +93,38 @@ body {
 .nav-link {
   color: #F0ECE3 !important; }
 
+/*------------------------------------- LOGO -------------------------------------*/
+.logo {
+  width: 20%; }
+
 /*------------------------------------- INDEX -------------------------------------*/
 .index__titulo {
   margin-top: 5%;
   margin-bottom: 2%;
   background-color: #2a323b3a;
-  color: #F7E9D7;
-  display: flex;
-  width: 100%;
+  color: #F0ECE3;
   height: 2.0em;
   padding: 2%;
-  align-items: center;
-  justify-content: center;
   border: 2px solid black;
   border-radius: 1%; }
 
 .imgIndex2 {
   margin-top: 6%;
   border-radius: 4px;
-  border: 12px solid #596E79; }
+  border: 12px solid #596E79;
+  box-shadow: 5px 8px 12px black; }
 
 .index__img {
   margin-top: 3%;
   border-radius: 4px;
   border: 12px solid #596E79;
-  border-style: double; }
+  border-style: double;
+  box-shadow: 5px 8px 12px black; }
 
 .index__boton {
   display: flex; }
 
 .index__txt {
-  display: flex;
-  justify-content: center;
   text-decoration: none;
   color: #596E79;
   margin: 3%; }
@@ -146,9 +135,6 @@ body {
   margin: 3%;
   margin-bottom: 4%;
   padding: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #f0ece3;
   border-radius: 3%; }
 
@@ -159,11 +145,7 @@ body {
 
 .subtitulos {
   background-color: #596E79;
-  color: #F7E9D7;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+  color: #F0ECE3;
   margin-bottom: 5%;
   border: 2px solid black;
   border-radius: 4%;
@@ -175,34 +157,27 @@ body {
   height: 90%;
   border-radius: 4%;
   border: 8px solid #00000065;
+  box-shadow: 5px 8px 12px black;
   margin: 3%; }
 
 .card__tittle {
   margin-top: 5%;
   margin-bottom: 2%;
   background-color: #2a323b3a;
-  color: #F7E9D7;
-  display: flex;
-  width: 100%;
+  color: #F0ECE3;
   height: 2.0em;
   padding: 2%;
-  align-items: center;
-  justify-content: center;
   border: 2px solid black;
   border-radius: 1%; }
 
-.card-text {
+.card-text, .index__titulo, .index__txt, .subtitulos, .card__tittle, .carrito, #h2contacto, #exclusividad, #maison, #prox {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%; }
 
 .carrito {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 5.2%;
-  height: 100%;
   width: 100%;
   padding: 2%;
   text-decoration: none;
@@ -213,13 +188,12 @@ footer {
   background: #596E79;
   min-height: 100px;
   margin-top: 3%; }
-
-footer p {
-  color: #F7E9D7;
-  text-align: center; }
+  footer p {
+    color: #F0ECE3;
+    text-align: center; }
 
 #iconos i {
-  background-color: #F7E9D7;
+  background-color: #F0ECE3;
   font-size: 1.5em;
   padding: 0 8px;
   border-radius: 15%; }
@@ -229,31 +203,23 @@ footer p {
   margin-top: 5%;
   margin-bottom: 2%;
   background-color: #2a323b3a;
-  color: #F7E9D7;
-  display: flex;
-  width: 100%;
+  color: #F0ECE3;
   height: 2.0em;
   padding: 2%;
-  align-items: center;
-  justify-content: center;
   border: 2px solid black;
   border-radius: 1%; }
 
-.contacto__text {
+.contacto__text, .contacto__form {
   font-size: 1.2em;
   border: 3px solid #596E79;
   background-color: #596E79;
-  color: #F7E9D7;
+  color: #F0ECE3;
   padding: 2%; }
 
 .contacto__form {
   margin-top: 5%;
   width: 90%;
-  border-radius: 4%;
-  border: 3px solid #596E79;
-  background-color: #596E79;
-  color: #F7E9D7;
-  padding: 2.2%; }
+  border-radius: 4%; }
 
 a i {
   color: #596E79; }
@@ -264,17 +230,11 @@ a i {
 /*------------------------------------- ID -------------------------------------*/
 #exclusividad {
   padding: 12%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #596E79;
-  color: #F7E9D7;
+  color: #F0ECE3;
   height: 4em; }
 
 #maison {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 10%;
   font-size: 4em;
   background-color: #fff;
@@ -285,9 +245,14 @@ a i {
   transition-duration: 100s; }
 
 #prox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 1.5%;
   margin: 2%; }
+
+.carrito-text {
+  padding: 2%;
+  border-radius: 1px;
+  box-shadow: 5px 8px 12px black;
+  background-color: #596E79;
+  color: #F0ECE3; }
+
+/*------------------------------------- CONTACTO -------------------------------------*/

@@ -2,14 +2,14 @@
   
 #exclusividad {
   padding: 12%;
-  @extend .card__text;
+  @extend .card-text;
   background-color: $azul ;
   color: $pastel;
   height: 4em; 
 }
   
 #maison {
-  @extend .card__text;
+  @extend .card-text;
   padding: 10%;
   font-size: 4em;
   background-color: $blanco;
@@ -21,9 +21,15 @@
 }
   
 #prox{
-  @extend .card__text;
+  @extend .card-text;
   padding: 1.5%;
   margin: 2%;
 }
-  
-  
+
+.carrito-text{
+padding: 2%;
+border-radius:  1px;
+box-shadow: 5px 8px 12px black;
+background-color: $azul;
+color: $pastel;
+}

@@ -4,16 +4,3 @@
 }
  
 /*------------------------------------- COLORES -------------------------------------*/
-  
-.col-12 {
-  background: $gradiente;
-}
-  
-section {
-  @extend .col-12;
-}
-  
-body {
-  @extend .col-12;
-}
-
