@@ -1,50 +1,72 @@
  /*------------------------------------- INDEX -------------------------------------*/
   
- .index__titulo {
+.index__titulo {
   @extend .card-text;
-  margin-top: 5%;
-  margin-bottom: 2%;
   background-color: #2a323b3a;
   color: $pastel ;
-  height: 2.0em;
+  height: 3.0em;
   padding: 2%;
   border: 2px solid black;
   border-radius: 1%;
+  margin-top: 1%;
+  margin-bottom:1%;
 }
+ /*-----------------CARROUSSEL--------------------*/
+.carrousell__container{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: $azul;
+  padding: 2%;
   
-.imgIndex2{
-  margin-top: 6%;
-  border-radius: 4px;
-  border: 12px solid $azul;
-  box-shadow: 5px 8px 12px black;
+  ul{ 
+    display: flex;
+    padding: 0;
+    width: 300%;
+    
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+
+  }
+  li{
+    width: 100%;
+    list-style: none;
+  }
+  img{
+    margin: 3%;
+    width: 35%;
+    border-radius:2%;
+    border: 1px solid black;
+    box-shadow: 5px 8px 12px black;
+  }
+
+  .index__button{
+    background-color: $pastel;
+    color: black;
+    height:100% ;
+  }
+  .button{
+    background-color: $pastel;
+    color: $azul;
+    font-size: 1.2rem;
+    margin: 3%;
+
+  }
 }
 
-.index__img{
-  margin-top:3%;
-  border-radius: 4px;
-  border: 12px solid $azul;
-  border-style:double;
-  box-shadow: 5px 8px 12px black;
+ /*-----------------CARD INDEX--------------------*/
+.aside_container{
+  background-color: $pastel;
+  padding: 2%;
 }
-  
-.index__boton{
-  display: flex;
-}
-  
-.index__txt{
-  @extend .card-text;
-  text-decoration: none;
+
+.card__text{
+  padding: 2%;
+  margin: 2%;
   color: $azul;
-  margin: 3%;
 }
-  
-.index__card{
-  
-  width:83%;
-  height: 83%;
-  margin: 3%;
-  margin-bottom: 4%;
-  padding: 10%;
-  background-color: #f0ece3;
-  border-radius: 3%;
+
+.card__row{
+  @extend .card-text;
+  --bs-gutter-x:0;
 }

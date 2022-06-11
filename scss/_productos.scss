@@ -18,10 +18,10 @@
     background-color: #171b1f3d;
     width: 90%;
     height: 90%;
-    border-radius: 4%;
+    border-radius: 2%;
     border: 8px solid #00000065;
     box-shadow: 5px 8px 12px black;
-    margin: 3%; 
+    margin: 7%; 
   }
     
   .card__tittle {
@@ -46,8 +46,8 @@
   .carrito {
     @extend .card-text;
     margin-bottom: 5.2%; 
-    width: 100%;
-    padding: 2%;
+    width: 70%;
+    padding: 1%;
     text-decoration: none;
     background-color: #171b1f3d;
   }

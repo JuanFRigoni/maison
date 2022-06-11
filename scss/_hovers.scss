@@ -25,20 +25,6 @@
     transition: all; 
   }
     
-  .imgIndex2:hover{
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg); 
-    -moz-transform: rotate(360deg);
-    transition-duration: 4s;
-    
-    
-  }
-  
-  .index__card:hover{
-    @extend .col-lg-6:hover;
-  }
-  
   .card:hover{
    @extend .col-lg-6:hover;
   }
@@ -58,6 +44,13 @@
     -o-transform: rotate(360deg); 
     -moz-transform: rotate(360deg);
     transition-duration: 6s;
+    
+  }
+
+  .button:hover{
+    transform: scale(1.4);
+    transition-duration: 0s;
+    border: 3px solid $pastel;
     
   }
 }
