@@ -1,80 +1,87 @@
 <!DOCTYPE html> 
 <html lang="es">
-  <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="content" content="Somos una empresa dedicada al diseño, elaboración y venta de cerámica artesanal, pedí tus piezas únicas en nuestra web"> 
-        <meta name="keywords" content="CERAMICA,CERAMICAARTESANAL,ARTESANAL,BAHIABLANCA,BAHIADECO,PRODUCTOS,SALE,CONTACTO,MAISON,MAISONDECO,PIEZAS">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstaticcom" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap"rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
-        <link rel="icon" href="./media/icono2.ico">
-        <link rel="stylesheet" href="./css/estilo.css" />
-        <title>¡Bienvenidos!</title>
-  </head>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="content" content="Somos una empresa dedicada al diseño, elaboración y venta de cerámica artesanal, pedí tus piezas únicas en nuestra web"> 
+  <meta name="keywords" content="CERAMICA,CERAMICAARTESANAL,ARTESANAL,BAHIABLANCA,BAHIADECO,PRODUCTOS,SALE,CONTACTO,MAISON,MAISONDECO,PIEZAS">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstaticcom" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap"rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+  <link rel="icon" href="./media/icono2.ico">
+  <link rel="stylesheet" href="./css/estilo.css" />
+  <title>¡Bienvenidos!</title>
+</head>
 <body>
-  <nav class="navbar navbar-light fixed-top">
-    <div class="container-fluid">
-      <a href="./index.html" class="navbar-brand"> <img class="logo" src="./media/logomaison.png" alt="logo" srcset=""><a href="./index.html"></a>
-      <button class="navbar-toggler d-flex justify-content-between" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+<nav class="navbar navbar-light fixed-top">
+  <div class="container-fluid">
+    <a href="./index.html" class="navbar-brand"> <img class="logo" src="./media/logomaison.png" alt="logo" srcset=""><a href="./index.html"></a>
+    <button class="navbar-toggler d-flex justify-content-between" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MaisonDeco</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/carrito.html">Carrito</a>
-              </li>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MaisonDeco</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/carrito.html">Carrito</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="./pages/sale.html">Sale!</a></li>
+                <li><a class="dropdown-item" href="./pages/ceramica.html">Cerámica</a></li>
+                <li><a class="dropdown-item" href="./pages/decohome.html">DecoHome</a></li>
             </ul>
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                  <li><a class="dropdown-item" href="./pages/sale.html">Sale!</a></li>
-                  <li><a class="dropdown-item" href="./pages/ceramica.html">Cerámica</a></li>
-                  <li><a class="dropdown-item" href="./pages/decohome.html">DecoHome</a></li>
-                </ul>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/contacto.html ">Contactanos</a>
-                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html ">Contactanos</a>
               </li>
-            </ul>
-          </div>
-        </div>
+          </li>
+        </ul>
+      </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
 <section>
-  <h2 class="index__titulo display-4"> Conocé nuestros productos</h2>
+  <h2 class="index__titulo display-4"> Conocé nuestros productos al mejor precio!</h2>
 </section>
 
-<main class="main__container  container container-fluid">
+<section class="carrousell__container text-center">
+  <ul>
+    <li><img src="./media/IMG_20220527_160754752~2.jpg"    alt=""><a href="./pages/sale.html"></a></li>
+    <li><img src="./media/salevela.png"  alt=""><a href="./pages/sale.html"></a></li>
+    <li><img src="./media/index1500600.jpg" alt=""><a href="./pages/sale.html"></a></li>
+  </ul>
+  <a href="./pages/sale.html" class="button btn btn-secondary">Conocer el Sale!</a>
+</section>  
 
-  <section class="row">
-    <aside class="container__index col-lg-6">
-      <div class="index__card">
-        <a href="./pages/sale.html"><img src="media/index1500600.jpg" alt="link a sale "class="img_movimiento"/><p class="link__index">Sale!</p></a>
-      </div>
-    </aside>
-    <aside class="container__index col-lg-6">
-      <div class="index__card">
-        <a href="./pages/decohome.html"><img src="/media/index2.jpg" class="index__img"alt=" link a decohome"><p class="link__index">Decohome</p></a>
-      </div>
-    </aside>
-    <aside class="container__index col-lg-6">  
-      <div class="index__card">
-        <a href="./pages/ceramica.html"><img src="/media/hornillo-ceramica2.png" class="index__img2" alt=" link a Ceramica" ><p class="link__index">Cerámica</p></a>
-      </div>
-    </aside>
-  </section>
-</main>
+<aside class="aside_container container-fluid">
+    <section class="card_row row">
+        <div class="card__container card">
+            <img class="card__img" src="./media/index2.jpg" alt="Foto con link a ceramica">
+            <div class="card__body">
+                <p class="card__text">Visitá nuestra sección dedicada a nuestras exclusivas lineas de  cerámica</p>
+                <a href="./pages/ceramica.html" class=" boton btn btn-secondary">Ir a Cerámica</a>
+            </div>
+        </div>
+        <div class="card__container card">
+            <img class="card__img" src="./media/almohadon-deco.png" alt="foto con link a decohome">
+            <div class="card__body">
+                <p class="card__text">Encontrá todos los detalles para hacer de tu hogar un lugar único e inigualable </p>
+                <a href="./pages/ceramica.html" class=" boton btn btn-secondary">Ir a decohome</a>
+            </div>
+        </div>
+    </section>
+</aside>
 
 <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
   <p class="fs-5 px-3  pt-3"> &copy; Todos Los Derechos Reservados 2022</p>
@@ -84,7 +91,6 @@
       <a href="mailto:maisondeco@gmail.com"><i class="bi bi-envelope"></i></a>
     </div>
 </footer>
-  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 </body>
 </html>

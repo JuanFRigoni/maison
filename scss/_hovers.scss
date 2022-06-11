@@ -11,10 +11,6 @@
     transform: scale(1.02);
   }
 
-  .col-lg-6:hover {
-    transform: scale(1.02);
-    transition-duration: inherit;
-  }
 
   .contacto__lema:hover #maison {
     visibility: visible; 
@@ -26,7 +22,7 @@
   }
     
   .card:hover{
-   @extend .col-lg-6:hover;
+    transform: scale(1.02);
   }
   
   .navbar-toggler:hover{ 
@@ -35,7 +31,7 @@
   }
   
   .logo:hover{
-   @extend .col-lg-6:hover;
+   @extend .card:hover;
   }
   
   .carrito-text:hover{
@@ -53,5 +49,10 @@
     border: 3px solid $pastel;
     
   }
+  .boton:hover{
+    transform:scale(1.09);
+    background-color: $pastel;
+    color: $azul;
+
+  }
 }
-     

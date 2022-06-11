@@ -27,14 +27,13 @@
     background-color: #596E79;
     border: 3px solid black;
     transform: scale(1.02); }
-  .col-lg-6:hover, .card:hover, .logo:hover {
-    transform: scale(1.02);
-    transition-duration: inherit; }
   .contacto__lema:hover #maison {
     visibility: visible; }
   .form-group:hover {
     transform: scale(1.05);
     transition: all; }
+  .card:hover, .logo:hover {
+    transform: scale(1.02); }
   .navbar-toggler:hover {
     border: 3px solid black;
     transform: scale(1.2); }
@@ -47,7 +46,11 @@
   .button:hover {
     transform: scale(1.4);
     transition-duration: 0s;
-    border: 3px solid #F0ECE3; } }
+    border: 3px solid #F0ECE3; }
+  .boton:hover {
+    transform: scale(1.09);
+    background-color: #F0ECE3;
+    color: #596E79; } }
 
 /*------------------------------------- MEDIA Q -------------------------------------*/
 @media (min-width: 992px) {
@@ -128,7 +131,7 @@
   width: 100%;
   margin: auto;
   overflow: hidden;
-  background-color: #596E79;
+  background: linear-gradient(90deg, #596e79 22%, #444444 100%, black 100%);
   padding: 2%; }
   .carrousell__container ul {
     display: flex;
@@ -145,20 +148,20 @@
     border-radius: 2%;
     border: 1px solid black;
     box-shadow: 5px 8px 12px black; }
-  .carrousell__container .index__button {
+  .carrousell__container .button {
+    margin: 3%;
+    font-size: 1.5em;
     background-color: #F0ECE3;
     color: black;
     height: 100%; }
-  .carrousell__container .button {
-    background-color: #F0ECE3;
-    color: #596E79;
-    font-size: 1.2rem;
-    margin: 3%; }
 
 /*-----------------CARD INDEX--------------------*/
 .aside_container {
   background-color: #F0ECE3;
   padding: 2%; }
+
+.card__container {
+  width: 22rem !important; }
 
 .card__text {
   padding: 2%;
@@ -167,6 +170,14 @@
 
 .card__row {
   --bs-gutter-x:0; }
+
+.card__body {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.boton {
+  margin: 3%; }
 
 /*------------------------------------- PRODUCTOS -------------------------------------*/
 .row {

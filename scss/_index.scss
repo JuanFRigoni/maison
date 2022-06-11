@@ -16,7 +16,7 @@
   width: 100%;
   margin: auto;
   overflow: hidden;
-  background-color: $azul;
+  background: $gradiente; 
   padding: 2%;
   
   ul{ 
@@ -40,17 +40,12 @@
     box-shadow: 5px 8px 12px black;
   }
 
-  .index__button{
+  .button{
+    margin: 3%;
+    font-size: 1.5em;
     background-color: $pastel;
     color: black;
     height:100% ;
-  }
-  .button{
-    background-color: $pastel;
-    color: $azul;
-    font-size: 1.2rem;
-    margin: 3%;
-
   }
 }
 
@@ -58,6 +53,10 @@
 .aside_container{
   background-color: $pastel;
   padding: 2%;
+}
+
+.card__container{
+  width: 22rem !important;
 }
 
 .card__text{
@@ -69,4 +68,14 @@
 .card__row{
   @extend .card-text;
   --bs-gutter-x:0;
+}
+
+.card__body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton{
+  margin: 3%;
 }
