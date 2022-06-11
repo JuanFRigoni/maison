@@ -2,15 +2,7 @@
   
   
   #h2contacto {
-    @extend .card-text;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    background-color: #2a323b3a;
-    color: $pastel ;
-    height: 2.0em;
-    padding: 2%;
-    border: 2px solid black;
-    border-radius: 1%;
+    @extend .index__titulo;
   }
   
   
@@ -19,14 +11,18 @@
     border: 3px solid $azul ;
     background-color: $azul ;
     color: $pastel;
-    padding: 2%; 
+    padding: 2%;
+    margin: 0% 
   }
   
   .contacto__form {
     @extend .contacto__text;
-    margin-top: 5%;
-    width: 90%;
-    border-radius: 4%;
+    margin:3%;
+    border-radius: 1%;
+  }
+
+  .contacto__lema{
+    margin: 1%;
   }
   
   a i {

@@ -13,7 +13,7 @@
 
 
   .contacto__lema:hover #maison {
-    visibility: visible; 
+    visibility: visible;
   }
       
   .form-group:hover {
@@ -54,5 +54,10 @@
     background-color: $pastel;
     color: $azul;
 
+  }
+  .carrito:hover{
+    transform: scale(1.05);
+    transition: all;
+    background-color: $pastel;
   }
 }

@@ -2,16 +2,18 @@
   
 .index__titulo {
   @extend .card-text;
-  background-color: #2a323b3a;
-  color: $pastel ;
+  font-family: $titulos;
+  background-color: $pastel;
+  color: #2a323b6e;
+  font-size: 3.0em;
   height: 3.0em;
   padding: 2%;
   border: 2px solid black;
   border-radius: 1%;
-  margin-top: 1%;
-  margin-bottom:1%;
+  margin: 0%;
 }
  /*-----------------CARROUSSEL--------------------*/
+
 .carrousell__container{
   width: 100%;
   margin: auto;
@@ -49,8 +51,9 @@
   }
 }
 
+
  /*-----------------CARD INDEX--------------------*/
-.aside_container{
+ .aside_container{
   background-color: $pastel;
   padding: 2%;
 }
