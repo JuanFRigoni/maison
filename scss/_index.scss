@@ -5,9 +5,10 @@
   font-family: $titulos;
   background-color: $pastel;
   color: #2a323b6e;
-  font-size: 3.0em;
-  height: 3.0em;
-  padding: 2%;
+  font-size: 2.0em;
+  font-weight: 700;
+  height: 2.3em;
+  padding: 1%;
   border: 2px solid black;
   border-radius: 1%;
   margin: 0%;
@@ -20,7 +21,6 @@
   overflow: hidden;
   background: $gradiente; 
   padding: 2%;
-  
   ul{ 
     display: flex;
     padding: 0;
@@ -41,9 +41,9 @@
     border: 1px solid black;
     box-shadow: 5px 8px 12px black;
   }
-
+/*----------------- BOTON CARROUSSEL--------------------*/
   .button{
-    margin: 3%;
+    margin: 2%;
     font-size: 1.5em;
     background-color: $pastel;
     color: black;
@@ -79,6 +79,13 @@
   align-items: center;
 }
 
+.card__img{
+  margin-top: 2%;
+  --bs-gbs-gutter-x:0% !important;
+}
+
+
 .boton{
   margin: 3%;
 }
+

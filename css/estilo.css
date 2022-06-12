@@ -41,7 +41,9 @@
 /*------------------------------------- MEDIA Q -------------------------------------*/
 @media (min-width: 992px) {
   .logo {
-    width: 12%; }
+    width: 7%; }
+  .contacto__form {
+    max-width: 50%; }
   .card {
     height: 40em; }
   .carrito {
@@ -87,13 +89,13 @@
 
 /*------------------------------------- ID -------------------------------------*/
 #exclusividad {
-  padding: 12%;
+  padding: 8%;
   background-color: #596E79;
   color: #F0ECE3;
   height: 4em; }
 
 #maison {
-  padding: 10%;
+  padding: 6%;
   font-size: 4em;
   background-color: #fff;
   color: #596E79;
@@ -150,16 +152,17 @@
 
 /*------------------------------------- LOGO -------------------------------------*/
 .logo {
-  width: 20%; }
+  width: 7%; }
 
 /*------------------------------------- INDEX -------------------------------------*/
 .index__titulo, .card__tittle, #h2contacto {
   font-family: "Montserrat", sans-serif;
   background-color: #F0ECE3;
   color: #2a323b6e;
-  font-size: 3.0em;
-  height: 3.0em;
-  padding: 2%;
+  font-size: 2.0em;
+  font-weight: 700;
+  height: 2.3em;
+  padding: 1%;
   border: 2px solid black;
   border-radius: 1%;
   margin: 0%; }
@@ -170,7 +173,8 @@
   margin: auto;
   overflow: hidden;
   background: linear-gradient(90deg, #596e79 22%, #444444 100%, black 100%);
-  padding: 2%; }
+  padding: 2%;
+  /*----------------- BOTON CARROUSSEL--------------------*/ }
   .carrousell__container ul {
     display: flex;
     padding: 0;
@@ -187,7 +191,7 @@
     border: 1px solid black;
     box-shadow: 5px 8px 12px black; }
   .carrousell__container .button {
-    margin: 3%;
+    margin: 2%;
     font-size: 1.5em;
     background-color: #F0ECE3;
     color: black;
@@ -213,6 +217,10 @@
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.card__img {
+  margin-top: 2%;
+  --bs-gbs-gutter-x:0% !important; }
 
 .boton {
   margin: 3%; }
@@ -270,15 +278,22 @@ footer {
   border: 3px solid #596E79;
   background-color: #596E79;
   color: #F0ECE3;
-  padding: 2%;
-  margin: 0%; }
-
-.contacto__form {
-  margin: 3%;
-  border-radius: 1%; }
+  padding: 2%; }
 
 .contacto__lema {
-  margin: 1%; }
+  justify-content: center;
+  padding: 3%;
+  background-color: #F0ECE3; }
+
+.contacto__container {
+  background: #F0ECE3;
+  padding: 2%; }
+
+.contacto__form {
+  font-size: 1.0em;
+  margin: 3%;
+  border-radius: 1%;
+  margin: auto; }
 
 a i {
   color: #596E79; }

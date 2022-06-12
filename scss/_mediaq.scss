@@ -2,9 +2,14 @@
   
 @media (min-width: 992px) {
   .logo {
-    width: 12%;
+    width: 7%;
   }
 
+  .contacto__form {
+    max-width: 50%;
+  }
+
+  
   .card {
     height: 40em;
   }
