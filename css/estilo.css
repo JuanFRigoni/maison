@@ -152,7 +152,7 @@
 
 /*------------------------------------- LOGO -------------------------------------*/
 .logo {
-  width: 7%; }
+  width: 10%; }
 
 /*------------------------------------- INDEX -------------------------------------*/
 .index__titulo, .card__tittle, #h2contacto {
@@ -162,7 +162,7 @@
   font-size: 2.0em;
   font-weight: 700;
   height: 2.3em;
-  padding: 1%;
+  padding: 1.5%;
   border: 2px solid black;
   border-radius: 1%;
   margin: 0%; }
@@ -219,7 +219,7 @@
   align-items: center; }
 
 .card__img {
-  margin-top: 2%;
+  margin-top: 3%;
   --bs-gbs-gutter-x:0% !important; }
 
 .boton {
@@ -236,7 +236,7 @@
   background-color: #F0ECE3;
   width: 90%;
   height: 90%;
-  border-radius: 1%;
+  border-radius: 3.5%;
   border: 8px solid #00000065;
   box-shadow: 5px 8px 12px black;
   margin: 7%; }
@@ -251,12 +251,13 @@
   height: 100%; }
 
 .carrito {
-  margin-top: 6%;
-  margin-bottom: 6%;
+  margin: 6%;
   width: 70%;
   font-size: 1.2em;
   padding: 4%;
-  background-color: #171b1f3d; }
+  background-color: #171b1f3d;
+  color: black;
+  border-radius: 4%; }
 
 /*------------------------------------- FOOTER -------------------------------------*/
 footer {
